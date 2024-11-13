@@ -1,0 +1,114 @@
+@media (max-width: 26.875rem) {
+    
+    /* index header */
+    .index-header {
+        display: flex;
+        flex-direction: column;
+        padding: 1.75rem 1.2rem;
+        gap: 2rem;
+        border-radius: 2.1875rem 2.1875rem 0 0;
+    }
+
+    .index-header__text-and-image-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .index-header__image-container {
+        height: 3.75rem;
+        width: 3.75rem;
+        border-radius: 1rem;
+        background-image: url(https://picsum.photos/seed/picsum/106/73);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .index-header__search-bar-container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .index-header__search-bar {
+        padding: 1.25rem;
+        border-radius: 1.25rem;
+    }
+
+    .index-header__button {
+        height: 3.75rem;
+        width: 3.75rem;
+        border-radius: 1.25rem;
+    }
+
+
+    /* index main */
+    .index-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        padding: 1.2rem;
+    }
+
+    .index-main__product-card {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    .index-main__icon-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .index-main__rating-container {
+        display: flex;
+        gap: 0.25rem;
+    }
+
+
+
+
+    /* index footer */
+    .index-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 0 0 2.1875rem 2.1875rem;
+        position: relative;
+        padding-block-start: 4rem;
+    }
+
+    .index-footer__button-container {
+        height: 6.5rem;
+        width: 6.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10rem;
+        position: absolute;
+        bottom: 2.5rem;
+        z-index: 10;
+    }
+
+    .index-footer__button {
+        height: 4.5rem;
+        width: 4.5rem;
+        border-radius: 10rem;
+    }
+
+    .index-footer__navigation {
+        padding: 1rem 1.9rem 1.9rem 1.9rem;
+        border-radius: 0 0 2.1875rem 2.1875rem;
+    }
+
+    .index-footer__menu {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .extra-padding {
+        padding-inline-end: 6rem;
+    }
+  }

@@ -1,0 +1,33 @@
+.index-header {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+.index-header__heading {
+    font-family: var(--accent-font-family);
+    font-size: 2.8125rem;
+    font-weight: 500;
+}
+
+.index-header__subheading {
+    font-family: var(--secondary-font-family);
+    color: var(--color-medium);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.index-header__search-bar {
+    border: none;
+    box-shadow: var(--box-shadow);
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--color-dark);
+    width: 81%;
+}
+
+.index-header__button {
+    border: none;
+    background-color: var(--color-accent);
+    color: var(--color-light);
+    font-size: 1.75rem;
+}

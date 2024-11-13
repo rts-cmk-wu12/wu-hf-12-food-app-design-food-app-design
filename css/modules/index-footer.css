@@ -1,0 +1,24 @@
+.index-footer {
+    color: var(--color-light);
+    background-color: var(--color-light);
+}
+
+.index-footer__button-container {
+    background-color: var(--color-light);
+}
+
+.index-footer__button {
+    border: none;
+    background-color: var(--color-accent);
+    font-size: 1.75rem;
+    box-shadow: var(--box-shadow);
+}
+
+.index-footer__navigation {
+    background-color: var(--color-accent);
+    width: 100%;
+}
+
+.index-footer__menu-link {
+    font-size: 1.75rem;
+}
