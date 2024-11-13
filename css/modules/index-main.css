@@ -1,0 +1,26 @@
+.index-main {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-size: 1rem;
+}
+
+.index-main__product-card {
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+}
+
+.index-main__image {
+    border-radius: 1rem;
+}
+
+.index-main__star-icon {
+    color: var(--color-rating);
+}
+
+.index-main__rating {
+    font-weight: 500;
+}
+
+.index-main__heart-icon {
+    font-size: 1.5rem;
+}
